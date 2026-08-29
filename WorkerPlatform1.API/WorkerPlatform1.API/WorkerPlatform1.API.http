@@ -1,0 +1,11 @@
+@WorkerPlatform1.API_HostAddress = http://localhost:5066
+
+GET {{WorkerPlatform1.API_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{WorkerPlatform1.API_HostAddress}}/todos/1
+Accept: application/json
+
+###
